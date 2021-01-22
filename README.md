@@ -27,7 +27,7 @@ To understand design of program we have to look into:
 
 - ConcatenationCheck class: This class gives output after checking all the words for answer using output function.
 
-- utput(): Uses nested loop to insert all the words in trie and using trie functions get to know the result and print them.
+- output(): Uses nested loop to insert all the words in trie and using trie functions get to know the result and print them.
 
 - Trie class: This class contains TrieNode static sub-class and methods as following:
 
@@ -41,7 +41,7 @@ Pseudo Code:
 
 FOR I=0 TO LENGTH_OF_STRING:
 
-INDEX=STRING(I) – asciiOF(a)
+INDEX=STRING(I) – asciiOF(&#39;a&#39;)
 
 IF(TRIE_NODE(INDEX) == NULL)
 
@@ -99,7 +99,7 @@ How to Open a Gradle app?
 
 1. [Install Gradle.](https://gradle.org/install/)
 2. Open Terminal in **word composition problem** folder.
-3. Enter &#39;./gradlew run
+3. Enter &#39;./gradlew run&#39;
 
 By,
 
