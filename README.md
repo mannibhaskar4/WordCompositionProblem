@@ -4,7 +4,7 @@ Worst Time Complexity: **O(n<sup>2</sup> s<sup>3</sup>)**, where n is total numb
 
 Space Complexity: **O( S \* N)**, where N is number of words in Trie and S is length of the words.
 
-This is Readme file for the problem given by Impledge Technologies. The **java source code for this gradle app project is named as &quot;gradle&quot;,** in same folder.This whole project in made using java as programming language.
+This is Readme file for the problem given by Impledge Technologies. The **java source code for this gradle app project is in &quot;p1&quot;,** in same folder.This whole project in made using java as programming language.
 
 The Trie Data Structure is used in this program as it has to identify two longest word in file concatenating shorter words, also present in file. Firstly, there is Main class which is contains all the other class to manipulate ArrayList declared in Main class. This Main class uses input function inside Input class to get input from the file given in problem, then they are sorted according to the length in descending order. At last, the whole ArrayList is put through trie data structure and by the help trie manipulation longest word and second longest in list is detected made by concatenation.
 
@@ -98,10 +98,8 @@ PRINT B
 How to Open a Gradle app?
 
 1. [Install Gradle.](https://gradle.org/install/)
-2. Navigate SOURCE CODE – GRADLE -\&gt;Gradle.
-3. Open Terminal.
-4. Enter &#39; cd p1&#39;
-5. Enter &#39;./gradlew run
+2. Open Terminal in **word composition problem** folder.
+3. Enter &#39;./gradlew run
 
 By,
 
