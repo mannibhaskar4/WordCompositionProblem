@@ -1,6 +1,6 @@
 Word Composition Problem:
 
-Worst Time Complexity: **O(n\*\***2 \***\*s\*\*** 3\***\*)**, where n is total number of words and s is the length of longest word.
+Worst Time Complexity: **O(n<sup>2</sup> s<sup>3</sup>)**, where n is total number of words and s is the length of longest word.
 
 Space Complexity: **O(\*\***ALPHABET_SIZE \* key_length \* N\***\*),** where N is number of keys in Trie.
 
