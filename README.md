@@ -2,7 +2,7 @@ Word Composition Problem:
 
 Worst Time Complexity: **O(n<sup>2</sup> s<sup>3</sup>)**, where n is total number of words and s is the length of longest word.
 
-Space Complexity: **O(\*\***ALPHABET_SIZE \* key_length \* N\***\*),** where N is number of keys in Trie.
+Space Complexity: **O( S \* N)**, where N is number of words in Trie and S is length of the words.
 
 This is Readme file for the problem given by Impledge Technologies. The **java source code for this gradle app project is named as &quot;gradle&quot;,** in same folder.This whole project in made using java as programming language.
 
